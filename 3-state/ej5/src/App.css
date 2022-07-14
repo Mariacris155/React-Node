@@ -1,0 +1,22 @@
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+header img{
+  max-width: 75px;
+}
+
+header div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-items: center;
+}
+
+header p {
+  margin-right: 5px;
+}
