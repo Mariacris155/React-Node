@@ -1,7 +1,7 @@
 
 import './App.css';
 
-import videoclub from  '../videoclub';
+import videoclub from  './datos/videoclub';
 
 import Cabecera from './Cabecera';
 import Footer from './Footer';
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
    <Cabecera />
-   <Main peliculas = {videoclub}/>
+   <Main peliculas = {videoclub.peliculas}/>
    <Footer/>
    </>
   );
